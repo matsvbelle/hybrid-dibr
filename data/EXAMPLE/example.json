@@ -1,0 +1,51 @@
+{
+  "Resolution": [
+    <WIDTH>,
+    <HEIGHT>
+  ],
+  "Focal": [
+    <FOCAL-X>,
+    <FOCAL-Y>
+  ],
+  "frames": <NR-FRAMES>,
+  "cameras": [
+    {
+      "NameColor": <"NAMECOLOR.mp4">,
+      "NameDepth": <"NAMEDEPTH.mp4">,
+      "Principal_point": [
+        <PRINCIPAL-X>,
+        <PRINCIPAL-Y>
+      ],
+      "Depth_range": [
+        <DEPTH-NEAR>,
+        <DEPTH-FAR>
+      ],
+      "model": [
+        [
+          <MODEL-0-0>,
+          <MODEL-0-1>,
+          <MODEL-0-2>,
+          <MODEL-0-3>
+        ],
+        [
+          <MODEL-1-0>,
+          <MODEL-1-1>,
+          <MODEL-1-2>,
+          <MODEL-1-3>
+        ],
+        [
+          <MODEL-2-0>,
+          <MODEL-2-1>,
+          <MODEL-2-2>,
+          <MODEL-2-3>
+        ],
+        [
+          <MODEL-3-0>,
+          <MODEL-3-1>,
+          <MODEL-3-2>,
+          <MODEL-3-3>
+        ]
+      ]
+    }
+  ]
+}

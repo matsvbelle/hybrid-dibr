@@ -1,0 +1,4 @@
+bin/*
+data/*
+!data/EXAMPLE/*
+!data/convert.py
